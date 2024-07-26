@@ -1,30 +1,29 @@
 ---
 controller_user_accounts:
-  - username: altuve
-    first_name: Jose
-    last_name: Altuve
-    organization: Autodotes
+  - username: akrieger
+    first_name: Amy
+    last_name: Krieger
+    organization: Kriegcorp
     is_superuser: true
     password: "{{ lookup('ansible.builtin.password', '/dev/null', chars=['ascii_lowercase', 'digits'], length=8) }}"
-  - username: verlander
-    first_name: Justin
-    last_name: Verlander
-    organization: Autodotes
-    is_superuser: true
+  - username: harryp
+    first_name: Harry
+    last_name: Potter
+    organization: Kriegcorp
     password: "{{ lookup('ansible.builtin.password', '/dev/null', chars=['ascii_lowercase', 'digits'], length=8) }}"
-  - username: pressly
-    first_name: Ryan
-    last_name: Pressly
-    organization: Autodotes
+  - username: hermioneg
+    first_name: Hermione
+    last_name: Granger
+    organization: Kriegcorp
     password: "{{ lookup('ansible.builtin.password', '/dev/null', chars=['ascii_lowercase', 'digits'], length=8) }}"
-  - username: tucker
-    first_name: Kyle
-    last_name: Tucker
-    organization: Autodotes
+  - username: Ronw
+    first_name: Ron
+    last_name: Weasley
+    organization: Kriegcorp
     password: "{{ lookup('ansible.builtin.password', '/dev/null', chars=['ascii_lowercase', 'digits'], length=8) }}"
-  - username: biggio
-    first_name: Craig
-    last_name: Biggio
-    organization: Autodotes
+  - username: Ravenclaw_user
+    first_name: Raven
+    last_name: Claw
+    organization: Kriegcorp
     is_system_auditor: true
     password: "{{ lookup('ansible.builtin.password', '/dev/null', chars=['ascii_lowercase', 'digits'], length=8) }}"

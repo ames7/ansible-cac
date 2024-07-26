@@ -5,6 +5,6 @@ controller_templates:
     inventory: Demo Inventory
     project: Cloud Mgmt
     playbook: playbooks/aap/refresh_rh_token.yml
-    execution_environment: Autodotes Default EE
+    execution_environment: Kriegcorp Default EE
     credentials:
       - Red Hat Automation Hub Token [Personal]

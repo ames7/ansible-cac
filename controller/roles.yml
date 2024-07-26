@@ -1,19 +1,19 @@
 controller_roles:
   - role: member
-    target_team: Astros
+    target_team: Ravenclaw
     users:
-      - altuve
-      - verlander
-      - pressly
-      - tucker
-      - biggio
+      - Harryp
+      - Hermioneg
+      - Ronw
+      - Akrieger
+      - Ravenclaw_user
   - role: member
-    target_team: Pitching Staff
+    target_team: Krieg
     users:
-      - verlander
-      - pressly
+      - Akrieger
+      - Harryp
   - roles:
       - execute
       - read
-    organization: Autodotes
-    team: Astros
+    organization: Kriegcorp
+    team: Krieg

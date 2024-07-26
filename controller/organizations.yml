@@ -1,8 +1,8 @@
 controller_organizations:
-  - name: Autodotes
-    description: Default organization for Autodotes containerized AAP instance
+  - name: Kriegcorp
+    description: Default organization for AAP 
     max_hosts: 0
-    default_environment: Autodotes Default EE
+    default_environment: Kriegcorp Default EE
     galaxy_credentials:
       - Red Hat Automation Hub [Certified]
       - Ansible Galaxy
